@@ -1,0 +1,363 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Geist","arguments":[{"variable":"--font-geist-sans","subsets":["latin"]}],"variableName":"geistSans"} ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin-ext */
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/ba015fad6dcf6784-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/569ce4b8f30dc480-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: 'Geist Fallback';src: local("Arial");ascent-override: 95.94%;descent-override: 28.16%;line-gap-override: 0.00%;size-adjust: 104.76%
+}.__className_4d318d {font-family: 'Geist', 'Geist Fallback';font-style: normal
+}.__variable_4d318d {--font-geist-sans: 'Geist', 'Geist Fallback'
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Geist_Mono","arguments":[{"variable":"--font-geist-mono","subsets":["latin"]}],"variableName":"geistMono"} ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin-ext */
+@font-face {
+  font-family: 'Geist Mono';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/747892c23ea88013-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Geist Mono';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url(/_next/static/media/93f479601ee12b01-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: 'Geist Mono Fallback';src: local("Arial");ascent-override: 74.67%;descent-override: 21.92%;line-gap-override: 0.00%;size-adjust: 134.59%
+}.__className_ea5f4b {font-family: 'Geist Mono', 'Geist Mono Fallback';font-style: normal
+}.__variable_ea5f4b {--font-geist-mono: 'Geist Mono', 'Geist Mono Fallback'
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+}
+
+/* header */
+.header{
+    background-color: rgb(125,98,76);
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.header .name{
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.header .logo{
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.header nav{
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header nav a:hover{
+    text-decoration: underline;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: medium;
+}
+
+footer p{
+    margin: 0;
+}
+
+/* home component */
+.hero-section{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding-left: 50px;
+}
+
+.hero-section h1{
+    font-size: 60px;
+    text-shadow: 2px 4px 4px;
+}
+
+.hero-section p{
+    font-size: 30px;
+    margin: 10px;
+}
+.hero-section button{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: darkslategray;
+    color: white;
+    border: 1px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section button:hover{
+    background-color: rgb(200, 150, 80);
+}
+
+/* about us */
+.about-us{
+    background-size: cover;
+    background-position: center;
+    color: black;
+    height: 120vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+
+.about{
+    max-width: 700px;
+    text-align: left;
+    background-color: rgb(200, 150, 80);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.about p{
+    padding: 20px 0;
+}
+
+/* all products */
+.all-products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    gap: 25px;
+    margin: 40px;
+}
+
+.foot-wear{
+    background-color: rgb(244, 225, 191);
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+    text-align: center;
+}
+
+.foot-wear img{
+    width: 200px;
+    height: 200px;
+}
+
+.foot-wear h3{
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.foot-wear p{
+    font-size: medium;
+}
+
+.foot-wear .price{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.foot-wear button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: darkslategray;
+    color: white;
+    border: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.foot-wear button:hover{
+    background-color: rgb(125,98,76);
+}
+
+/* contatc us */
+.contact{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 4px 8px 12px;
+    background-color: rgb(244, 225, 191);
+}
+
+.contact input, .contact textarea{
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.contact button{
+    padding: 20px;
+    background-color: rgb(125,98,76);
+    color: black;
+    border: 1px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact button:hover{
+    background-color: darkslategray;
+}
+
+.follow-us{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.follow-us h3{
+    font-weight: normal;
+    margin: 10px;
+}
+
+.account{
+    width: auto;
+    padding: 10px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* fade in effects */
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+}
+
+/* responsiveness */
+@media (max-width:768px){
+
+    /* header */
+    .header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header .name{
+        margin-bottom: 10px;
+    }
+    .header .name{
+        margin-bottom: 10px;
+    }
+    .header nav{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    /* hero section */
+    .hero-section{
+        height: 70vh;
+        text-align: center;
+        padding: 25px;
+    }
+    .hero-section h1{
+        font-size: 30px;
+    }
+    .hero-section p{
+        font-size: 15px;
+    }
+    .hero-section button{
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    /* about */
+    .about-us{
+        height: 60vh;
+        padding: 40px;
+    }
+    .about{
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* all products */
+    .all-products{
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+
+    /* contact us */
+    .contact{
+        margin: 50px auto;
+        padding: 20px;
+    }
+}
