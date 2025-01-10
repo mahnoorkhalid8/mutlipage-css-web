@@ -9,7 +9,7 @@ const About = () => {
           <p>Step into Confidence with Our Exclusive
             Collection of Men&apos;s and Women&apos;s Footwear.
             From Elegant Heels to Durable Boots, Experience
-            Comfort and Style in Every Step! Whether you're
+            Comfort and Style in Every Step! Whether you&apos;re
             heading to a formal event, a casual outing, or
             an adventurous journey, our footwear is designed
             to meet every occasion. Explore a range of trendy
