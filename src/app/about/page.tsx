@@ -7,7 +7,7 @@ const About = () => {
         <div className='about'>
           <h1 className='fade-in'>About Us</h1>
           <p>Step into Confidence with Our Exclusive
-            Collection of Men’s and Women’s Footwear.
+            Collection of Men&apos;s and Women&apos;s Footwear.
             From Elegant Heels to Durable Boots, Experience
             Comfort and Style in Every Step! Whether you're
             heading to a formal event, a casual outing, or
